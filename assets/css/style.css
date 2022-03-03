@@ -4,6 +4,17 @@
     border: none;
 }
 
+#logo {
+    color: white;
+    font-size: 200%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+#sub-logo {
+    color: yellow;
+    padding-top: 6px;
+    padding-left: 291px;
+}
 /* hero image, logo and cover text */
 #hero-image {
     height: 600px;
