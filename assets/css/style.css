@@ -51,16 +51,32 @@
 }
 
 #logo {
-    font-family: 'harmonymedium';
-    color: white;
+    font-family: 'harmonymedium', sans-serif;
+    color: #F9F8F4;
     font-size: 280%;
     padding-top: 40px;
     padding-left: 30px;
 }
 #sub-logo {
-    font-family: 'harmonymedium';
-    color: yellow;
+    font-family: 'harmonymedium', sans-serif;
+    color: #EFD30B;
     left: 526px;
     position: relative;
 }
 
+#cover-text {
+    font-family: 'harmonymedium'sans-serif;
+    color: #F9F8F4;
+    font-size: 120%;
+
+    width: 350px;
+    height: 200px;
+
+    padding: 15px;
+
+    background-color: rgb(239, 211, 11, .55);
+
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
