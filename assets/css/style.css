@@ -4,17 +4,15 @@
     border: none;
 }
 
-#logo {
-    color: white;
-    font-size: 200%;
-    padding-top: 30px;
-    padding-left: 30px;
+@font-face {
+    font-family: 'harmonymedium';
+    src: url(../fonts/harmony_personal_use-webfont.woff) format('woff2'),
+         url(../fonts/harmony_personal_use-webfont.woff2) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
-#sub-logo {
-    color: yellow;
-    padding-top: 6px;
-    padding-left: 291px;
-}
+
 /* hero image, logo and cover text */
 #hero-image {
     height: 600px;
@@ -25,4 +23,19 @@
     height: 600px;
     width: 100%;
     background: url(../images/hero-image-1.jpeg) no-repeat center center;
+}
+
+#logo {
+    font-family: 'harmonymedium';
+    color: white;
+    font-size: 280%;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+#sub-logo {
+    font-family: 'harmonymedium';
+    color: yellow;
+    clear: top;
+    left: 444px;
+    position: absolute;
 }
