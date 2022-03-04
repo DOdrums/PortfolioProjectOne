@@ -74,9 +74,9 @@
 
     padding: 15px;
 
-    background-color: rgb(239, 211, 11, .55);
+    background-color: rgb(255, 225, 0, 0.6);
 
     position: absolute;
-    bottom: 50px;
+    bottom: 105px;
     left: 50px;
 }
