@@ -18,7 +18,7 @@ h1, h2 {
     font-family: 'harmonymedium', 'Trebuchet MS';
 }
 
-/* hero image, logo and cover text */
+/* hero image*/
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -47,6 +47,7 @@ h1, h2 {
     }
 }
 
+/* logo and cover text  */
 #hero-text {
     width: 100%;
     height: 100%;
@@ -81,4 +82,24 @@ h1, h2 {
     position: absolute;
     bottom: 105px;
     left: 50px;
+}
+
+/* about me styling */
+#about-me-border {
+    width: 531px;
+    height: 182px;
+    border: 18px solid #EFD30B;
+}
+
+#about-me-container {
+    width: 471px;
+    height: 122px;
+    padding: 30px;
+}
+
+#about-me-text {
+    color: #5C5C5A;
+    font-size: 270%;
+    letter-spacing: 1px;
+    margin: 31px 0 0 188px;
 }
