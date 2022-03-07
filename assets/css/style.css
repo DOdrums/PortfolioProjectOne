@@ -18,6 +18,13 @@ h1, h2 {
     font-family: 'harmonymedium', 'Trebuchet MS';
 }
 
+p {
+    font-family: 'Trebuchet MS', 'Times New Roman';
+    font-size: 105%;
+    color: #1a1a19;
+}
+
+
 /* hero image*/
 #hero-outer {
     height: 600px;
@@ -73,7 +80,6 @@ h1, h2 {
     font-size: 120%;
 
     width: 350px;
-    height: 200px;
 
     padding: 15px;
 
@@ -87,9 +93,9 @@ h1, h2 {
 /* about me styling */
 #about-me-box {
     height: 100%;
-    width: 90%;
+    width: 95%;
     overflow: hidden;
-    margin: 70px auto 50px 50px;
+    margin: 70px auto 70px 50px;
 }
 
 #about-me-right {
@@ -98,18 +104,18 @@ h1, h2 {
     float: right;
     justify-content: center;
     margin-right: 60px;
-    padding: 72px 0;
+    padding: 40px 0;
 }
 
 #about-me-border {
-    width: auto;
+    width: 540px;
     height: 165px;
     border: 18px solid #EFD30B;
 }
 
 #about-me-inner {
     justify-content: center;
-    padding: 40px 30px;
+    padding: 25px 64px;
 }
 
 #about-me-text {
@@ -120,13 +126,15 @@ h1, h2 {
 }
 
 #about-me-left {
-    width: 48%; 
+    width: 49%; 
     float: left;
     clear: both;
 }
 
 #about-me-left img {
-    max-width: 70%;
+    max-width: 67%;
+    min-width: 460px;
+    min-height: 690px;
     clear: both;
     float: right;
     padding: 0 61px 0 0;
@@ -135,4 +143,7 @@ h1, h2 {
 #about-me-box p {
     text-align: left;
     margin: 50px 130px 0 0;
+    line-height: 26px;
+    max-width: 415px;
 }
+
