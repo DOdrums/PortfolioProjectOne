@@ -67,11 +67,11 @@ p {
     color: #F9F8F4;
     font-size: 280%;
     padding-top: 40px;
-    padding-left: 30px;
+    padding-left: 60px;
 }
 #sub-logo {
     color: #EFD30B;
-    left: 526px;
+    left: 557px;
     position: relative;
 }
 
@@ -87,7 +87,7 @@ p {
 
     position: absolute;
     bottom: 105px;
-    left: 50px;
+    left: 80px;
 }
 
 /* about me styling */
@@ -115,14 +115,14 @@ p {
 
 #about-me-inner {
     justify-content: center;
-    padding: 25px 64px;
+    padding: 25px 30px;
 }
 
 #about-me-text {
     color: #5C5C5A;
     font-size: 300%;
     letter-spacing: 1px;
-    margin: 31px 0 0 188px;
+    margin: 31px 0 0 257px;
 }
 
 #about-me-left {
@@ -134,7 +134,7 @@ p {
 #about-me-left img {
     max-width: 67%;
     min-width: 460px;
-    min-height: 690px;
+    height: 690px;
     clear: both;
     float: right;
     padding: 0 61px 0 0;
@@ -144,7 +144,7 @@ p {
     text-align: left;
     margin: 50px 130px 0 0;
     line-height: 26px;
-    max-width: 415px;
+    max-width: 491px;
 }
 
 /* footer styling */
