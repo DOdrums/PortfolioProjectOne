@@ -85,21 +85,54 @@ h1, h2 {
 }
 
 /* about me styling */
+#about-me-box {
+    height: 100%;
+    width: 90%;
+    overflow: hidden;
+    margin: 70px auto 50px 50px;
+}
+
+#about-me-right {
+    width: 42%;
+    height: 100%;
+    float: right;
+    justify-content: center;
+    margin-right: 60px;
+    padding: 72px 0;
+}
+
 #about-me-border {
-    width: 531px;
-    height: 182px;
+    width: auto;
+    height: 165px;
     border: 18px solid #EFD30B;
 }
 
-#about-me-container {
-    width: 471px;
-    height: 122px;
-    padding: 30px;
+#about-me-inner {
+    justify-content: center;
+    padding: 40px 30px;
 }
 
 #about-me-text {
     color: #5C5C5A;
-    font-size: 270%;
+    font-size: 300%;
     letter-spacing: 1px;
     margin: 31px 0 0 188px;
+}
+
+#about-me-left {
+    width: 48%; 
+    float: left;
+    clear: both;
+}
+
+#about-me-left img {
+    max-width: 70%;
+    clear: both;
+    float: right;
+    padding: 0 61px 0 0;
+}
+
+#about-me-box p {
+    text-align: left;
+    margin: 50px 130px 0 0;
 }
