@@ -5,12 +5,17 @@
 }
 
 @font-face {
+    /* font downloaded from: https://pixelsurplus.com/products/harmony-modern-serif-font (free personal use license) */
     font-family: 'harmonymedium';
     src: url(../fonts/harmony_personal_use-webfont.woff) format('woff2'),
          url(../fonts/harmony_personal_use-webfont.woff2) format('woff');
     font-weight: normal;
     font-style: normal;
 
+}
+
+h1, h2 {
+    font-family: 'harmonymedium', 'Trebuchet MS';
 }
 
 /* hero image, logo and cover text */
@@ -51,21 +56,18 @@
 }
 
 #logo {
-    font-family: 'harmonymedium', sans-serif;
     color: #F9F8F4;
     font-size: 280%;
     padding-top: 40px;
     padding-left: 30px;
 }
 #sub-logo {
-    font-family: 'harmonymedium', sans-serif;
     color: #EFD30B;
     left: 526px;
     position: relative;
 }
 
 #cover-text {
-    font-family: 'harmonymedium'sans-serif;
     color: #F9F8F4;
     font-size: 120%;
 
