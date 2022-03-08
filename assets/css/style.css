@@ -155,7 +155,6 @@ p, nav {
 .content-left {
     width: 49%; 
     float: left;
-    clear: both;
 }
 
 .content-left img {
@@ -200,4 +199,5 @@ footer {
 
 hr {
     border-top: 5px solid #5C5C5A;
+    margin-bottom: 20px;
 }
