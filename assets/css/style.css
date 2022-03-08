@@ -138,7 +138,7 @@ p, nav {
     padding: 40px 0;
 }
 
-#about-me-border {
+.border-box {
     width: 540px;
     height: 165px;
     border: 15px solid #EFD30B;
