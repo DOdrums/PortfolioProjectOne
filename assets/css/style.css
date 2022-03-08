@@ -141,7 +141,7 @@ p, nav {
 #about-me-border {
     width: 540px;
     height: 165px;
-    border: 18px solid #EFD30B;
+    border: 15px solid #EFD30B;
 }
 
 #about-me-inner {
@@ -197,4 +197,10 @@ footer {
     color: #F9F8F4;
     margin: .8% 5% 0 5%;
     padding: .5%;
+}
+
+/* reading and playing page */
+
+hr {
+    border-top: 5px solid #5C5C5A;
 }
