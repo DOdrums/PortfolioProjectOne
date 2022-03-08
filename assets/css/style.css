@@ -144,16 +144,12 @@ p, nav {
     border: 15px solid #EFD30B;
 }
 
-#about-me-inner {
-    justify-content: center;
-    padding: 25px 30px;
-}
-
-#about-me-text {
+.border-box-text {
     color: #5C5C5A;
     font-size: 300%;
     letter-spacing: 1px;
-    margin: 31px 0 0 257px;
+    float: right;
+    margin: 31px 10px 0 0;
 }
 
 #about-me-left {
