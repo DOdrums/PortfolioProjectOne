@@ -18,10 +18,41 @@ h1, h2 {
     font-family: 'harmonymedium', 'Trebuchet MS';
 }
 
-p {
+p, nav {
     font-family: 'Trebuchet MS', 'Times New Roman';
     font-size: 105%;
     color: #1a1a19;
+}
+
+/* logo and navigation menu */
+
+#logo {
+    max-height: 4em;
+    margin-left: 15px;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 35px;
+    line-height: 65px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #5C5C5A;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #EFD30B;
+}
+
+.active {
+    border-bottom: 2px solid #EFD30B;
 }
 
 /* hero image*/
@@ -53,12 +84,8 @@ p {
     }
 }
 
-/* logo and cover text  */
+/* title text and cover text  */
 
-#logo {
-    max-height: 2.5em;
-    padding: 0 0 0 60px;
-}
 #hero-text {
     width: 100%;
     height: 100%;

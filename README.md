@@ -16,3 +16,15 @@ click here to go to a working link of the website
 Some text about UX
 
 ### Business goals
+
+## Credits
+
+To be able to build this project in gitpod, I used the template made by Code Institute, as found here: [full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+Other websites I used for inspiration and general coding examples and knowledge:
+* [w3schools](https://www.w3schools.com/)
+* [awwwards](https://www.awwwards.com/)
+* 
+
+### Code
+* Nav bar inspiration was taken from the love running walkthrough project
