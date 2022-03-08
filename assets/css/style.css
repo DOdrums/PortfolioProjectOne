@@ -130,11 +130,10 @@ p, nav {
     margin: 80px auto 90px 50px;
 }
 
-#about-me-right {
+.content-right {
     width: 42%;
     height: 100%;
     float: right;
-    justify-content: center;
     margin-right: 60px;
     padding: 40px 0;
 }
@@ -153,13 +152,13 @@ p, nav {
     margin: 71px 27px 0 0;
 }
 
-#about-me-left {
+.content-left {
     width: 49%; 
     float: left;
     clear: both;
 }
 
-#about-me-left img {
+.content-left img {
     max-width: 67%;
     min-width: 460px;
     height: 690px;
@@ -179,6 +178,7 @@ p, nav {
 footer {
     background-color: #5C5C5A;
     height: 70px;
+    clear: both;
 }
 
 .socials {
