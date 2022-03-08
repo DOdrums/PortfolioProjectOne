@@ -151,5 +151,19 @@ p {
 footer {
     background-color: #5C5C5A;
     height: 70px;
+}
+
+.socials {
     text-align: center;
+}
+
+.socials > li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 160%;
+    color: #F9F8F4;
+    margin: .8% 5% 0 5%;
+    padding: .5%;
 }
