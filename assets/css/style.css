@@ -24,6 +24,11 @@ p, nav {
     color: #1a1a19;
 }
 
+.intro-text {
+    font-weight: bold;
+    font-size: 120%;
+}
+
 /* logo and navigation menu */
 
 #logo {
@@ -199,5 +204,6 @@ footer {
 
 hr {
     border-top: 5px solid #5C5C5A;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
+
