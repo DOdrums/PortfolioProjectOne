@@ -123,7 +123,7 @@ p, nav {
 }
 
 /* about me styling */
-#about-me-box {
+.content-box {
     height: 100%;
     width: 95%;
     overflow: hidden;
@@ -158,9 +158,9 @@ p, nav {
 }
 
 .content-left img {
-    max-width: 67%;
-    min-width: 460px;
-    height: 690px;
+    /* max-width: 67%;
+    min-width: 460px; */
+    max-height: 690px;
     clear: both;
     float: right;
     padding: 0 61px 0 0;
