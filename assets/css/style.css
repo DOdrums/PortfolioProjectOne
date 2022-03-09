@@ -212,8 +212,22 @@ hr {
     height: 100%;
     width: 95%;
     overflow: hidden;
-    margin: 80px auto 90px 50px;
+    margin: 40px;
     text-align: center;
+}
+
+.sheet-width {
+    width: 720px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.caption {
+    font-family: 'Trebuchet MS', 'Times New Roman';
+    font-size: 95%;
+    color: #5C5C5A;
+    text-align: left;
+    margin-left: 20px;
 }
 
 .article-box {
@@ -221,3 +235,4 @@ hr {
     width: 600px;
     margin-left: calc((100% - 600px) / 2);
 }
+
