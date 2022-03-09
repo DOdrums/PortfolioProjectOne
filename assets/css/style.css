@@ -208,6 +208,13 @@ hr {
     /* margin-bottom: 20px; */
 }
 
+.article-line {
+    border-top: 1px solid #5C5C5A;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .sheet-music-box {
     height: 100%;
     width: 95%;
