@@ -141,7 +141,7 @@ p, nav {
     height: 100%;
     float: right;
     margin-right: 60px;
-    padding: 40px 0;
+    padding: 35px 0;
 }
 
 .border-box {
@@ -210,10 +210,9 @@ hr {
 }
 
 .article-line {
-    border-top: 1px solid #5C5C5A;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    border-top: 1px solid #CAC4B5;
+    width: 1161px;
+    margin: 40px auto 0 auto;
 }
 
 .sheet-music-box {
