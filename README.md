@@ -28,3 +28,4 @@ Other websites I used for inspiration and general coding examples and knowledge:
 
 ### Code
 * Nav bar inspiration was taken from the love running walkthrough project
+* The code `margin-left: calc((100% - 600px) / 2);` to center paragraphs on page 2 and 3 was taken from the NYtimes website, which uses this code to center text in their articles

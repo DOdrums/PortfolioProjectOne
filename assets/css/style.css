@@ -207,3 +207,16 @@ hr {
     /* margin-bottom: 20px; */
 }
 
+.sheet-music-box {
+    height: 100%;
+    width: 95%;
+    overflow: hidden;
+    margin: 80px auto 90px 50px;
+    text-align: center;
+}
+
+.article-box {
+    max-width: 600px;
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+}
