@@ -22,6 +22,7 @@ p, nav {
     font-family: 'Trebuchet MS', 'Times New Roman';
     font-size: 105%;
     color: #1a1a19;
+    line-height: 26px;
 }
 
 .intro-text {
