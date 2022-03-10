@@ -36,6 +36,14 @@ li {
     margin-bottom: 20px;
 }
 
+nav {
+    margin-bottom: 0px;
+}
+
+nav ul li {
+    margin-bottom: -14px;
+}
+
 .intro-text {
     font-weight: bold;
     font-size: 120%;
@@ -221,7 +229,6 @@ footer {
 
 hr {
     border-top: 5px solid #5C5C5A;
-    /* margin-bottom: 20px; */
 }
 
 .article-line {
