@@ -29,3 +29,6 @@ Other websites I used for inspiration and general coding examples and knowledge:
 ### Code
 * Nav bar inspiration was taken from the love running walkthrough project
 * The code `margin-left: calc((100% - 600px) / 2);` to center paragraphs on page 2 and 3 was taken from the NYtimes website, which uses this code to center text in their articles
+
+## Bugs
+* After finishing page 2 of the website, I noticed that the line underneath the nav bar was suddenly cut in half. This was caused by a bottom-margin property being added to the main font selector (which includes the nav element). This was solved by making a selector that contains a negative bottom-margin to the ul and il child elements of the nav element and by adding a nav selector that contains a bottom-margin of 0.
