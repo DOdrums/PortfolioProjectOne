@@ -252,6 +252,11 @@ hr {
     margin-left: calc((100% - 600px) / 2);
 }
 
+.article-box h2 {
+    margin: 45px 0 15px 0;
+    font-size: 200%;
+}
+
 audio {
     padding: 12px 0 23px 0;
 }
