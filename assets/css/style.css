@@ -32,6 +32,10 @@ ul {
     margin-left: 35px;
 }
 
+li {
+    margin-bottom: 20px;
+}
+
 .intro-text {
     font-weight: bold;
     font-size: 120%;
