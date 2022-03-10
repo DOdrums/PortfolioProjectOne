@@ -239,11 +239,11 @@ hr {
 }
 
 #sonny-payne-box {
-    width: 100%;
+    width: 611px;
+    float: right;
 }
 #caption-sonny-payne {
-    margin-left: 208px;
-    margin-bottom: -15px;
+    margin-left: 2px;
 }
 
 .article-box {
