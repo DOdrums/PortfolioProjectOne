@@ -248,3 +248,6 @@ hr {
     margin-left: calc((100% - 600px) / 2);
 }
 
+audio {
+    padding: 14px 0;
+}
