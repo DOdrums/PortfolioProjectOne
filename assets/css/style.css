@@ -18,7 +18,7 @@ h1, h2 {
     font-family: 'harmonymedium', 'Trebuchet MS';
 }
 
-p, nav {
+p, ul, nav, h3 {
     font-family: 'Trebuchet MS', 'Times New Roman';
     font-size: 115%;
     color: #1a1a19;
@@ -26,9 +26,19 @@ p, nav {
     margin-bottom: 14px;
 }
 
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: 35px;
+}
+
 .intro-text {
     font-weight: bold;
     font-size: 120%;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 /* logo and navigation menu */
@@ -255,6 +265,11 @@ hr {
 .article-box h2 {
     margin: 45px 0 15px 0;
     font-size: 200%;
+}
+
+.article-box h3 {
+    margin: 10px 0 15px 0;
+    font-size: 140%
 }
 
 audio {
