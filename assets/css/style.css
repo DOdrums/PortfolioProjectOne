@@ -213,7 +213,7 @@ hr {
 .article-line {
     border-top: 1px solid #CAC4B5;
     width: 1161px;
-    margin: 40px auto 0 auto;
+    margin: 40px auto 40px auto;
 }
 
 .sheet-music-box {
@@ -240,6 +240,7 @@ hr {
 
 #caption-sonny-payne {
     margin-left: 208px;
+    margin-bottom: -15px;
 }
 .article-box {
     max-width: 600px;
