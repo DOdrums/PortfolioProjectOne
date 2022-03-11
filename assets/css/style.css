@@ -266,7 +266,7 @@ hr {
     margin-right: auto;
 }
 
-.caption {
+figcaption {
     font-family: 'Trebuchet MS', 'Times New Roman';
     font-size: 92%;
     color: #5C5C5A;
@@ -278,7 +278,7 @@ hr {
     width: 611px;
     float: right;
 }
-#caption-sonny-payne {
+.caption-small-margin {
     margin-left: 2px;
 }
 
@@ -307,4 +307,14 @@ audio {
 #count-basie-box {
     width: 594px;
     float: right;
+}
+
+#drummer-box {
+    width: 1200px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#drummer-box img {
+    width: 1200px;
 }
