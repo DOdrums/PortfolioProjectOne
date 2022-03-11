@@ -301,3 +301,10 @@ hr {
 audio {
     padding: 12px 0 23px 0;
 }
+
+/* three drummers page */
+
+#count-basie-box {
+    width: 594px;
+    float: right;
+}
