@@ -227,7 +227,8 @@ footer {
 
 /* 404 page */
 .error-page {
-    margin-left: calc((100% - 600px) / 2);
+    width: 507px;
+    margin-left: calc((100% - 507px) / 2);
     margin-top: 45vh;
 }
 
