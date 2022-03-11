@@ -225,6 +225,12 @@ footer {
     padding: .5%;
 }
 
+/* 404 page */
+.error-page {
+    margin-left: calc((100% - 600px) / 2);
+    margin-top: 45vh;
+}
+
 /* reading and playing page */
 
 hr {
