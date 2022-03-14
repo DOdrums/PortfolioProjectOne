@@ -309,13 +309,13 @@ audio {
     float: right;
 }
 
-#drummer-box {
+.drummer-box {
     width: 1200px;
     margin-left: auto; 
     margin-right: auto; 
 }
 
-#drummer-box img {
+.drummer-box img {
     width: 1200px;
 }
 
