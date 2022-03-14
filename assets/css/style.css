@@ -318,3 +318,9 @@ audio {
 #drummer-box img {
     width: 1200px;
 }
+
+.quote-box {
+    max-width: 540px;
+    width: 540px;
+    margin-left: calc((100% - 540px) / 2);
+}
