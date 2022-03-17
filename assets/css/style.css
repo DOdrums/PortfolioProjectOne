@@ -324,3 +324,12 @@ audio {
     width: 505px;
     margin-left: calc((100% - 505px) / 2);
 }
+
+/* contact page */
+.contact-section {
+    /* image taken from: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.last.fm%2Fmusic%2FCount%2BBasie%2B%26%2BHis%2BOrchestra&psig=AOvVaw3gib7PEU6RCHmW6z8rne8H&ust=1647618925218000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKC-i_nAzfYCFQAAAAAdAAAAABAD */
+    background: url("../images/count-basie-background.webp") no-repeat center;
+    background-size: cover;
+    height: 900px;
+    margin-bottom: -90px;
+}
