@@ -320,7 +320,7 @@ audio {
 }
 
 .quote-box {
-    max-width: 540px;
-    width: 540px;
-    margin-left: calc((100% - 540px) / 2);
+    max-width: 505px;
+    width: 505px;
+    margin-left: calc((100% - 505px) / 2);
 }
