@@ -400,3 +400,8 @@ audio {
     color: #5C5C5A;
     border-radius: 6px;
 }
+
+.submit-button:hover {
+    color: #EFD30B;
+    background-color: #5C5C5A;
+}
