@@ -215,12 +215,20 @@ label {
 }
 
 /* video element styling */
+#impossible-solo {
+    color: #5C5C5A;
+    font-size: 150%;
+    margin: 79px 0 0 0;
+    width: 800px;
+    margin-left: calc((100% - 625px) / 2);
+}
+
 .video-box {
     width: 75%;
     max-width: 1020px;
     height: 573px;
     max-height: 573px;
-    margin: 80px auto 0 auto;
+    margin: 20px auto 0 auto;
 }
 
 /* footer styling */
