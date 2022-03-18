@@ -52,6 +52,10 @@ nav ul li {
     font-weight: bold;
 }
 
+form h2 {
+    margin-bottom: 25px;
+}
+
 /* logo and navigation menu */
 
 #logo {
