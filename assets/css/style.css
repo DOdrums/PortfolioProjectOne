@@ -54,6 +54,7 @@ nav ul li {
 
 form h2 {
     margin-bottom: 25px;
+    color: #5C5C5A;
 }
 
 label {
@@ -361,7 +362,8 @@ audio {
     top: 216px;
     bottom: 70px;
     left: 113px;
-    padding: 25px 59px 101px 59px;
+    padding: 25px 43px 115px 59px;
+    border-radius: 5px;
 }
 
 .input-field {
