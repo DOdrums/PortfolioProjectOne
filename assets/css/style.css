@@ -361,7 +361,7 @@ audio {
     top: 216px;
     bottom: 70px;
     left: 113px;
-    padding: 59px 59px 101px 59px;
+    padding: 25px 59px 101px 59px;
 }
 
 .input-field {
@@ -381,4 +381,12 @@ audio {
     height: 107px;
     margin: 5px 0 20px;
     border: 2px solid #F9F8F4;
+}
+
+.submit-button {
+    height: 40px;
+    width: 96%;
+    font-size: 105%;
+    color: #5C5C5A;
+    border-radius: 6px;
 }
