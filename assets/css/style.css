@@ -338,7 +338,7 @@ audio {
     color: #F9F8F4;
     font-size: 120%;
 
-    width: 600px;
+    width: 511px;
     height: 500px;
 
     padding: 15px;
@@ -348,4 +348,14 @@ audio {
     position: absolute;
     bottom: 101px;
     left: 113px;
+    padding: 59px;
+}
+
+.input-field {
+    color: #5C5C5A; 
+    background: transparent;
+    width: 95%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #F9F8F4;
 }
