@@ -56,6 +56,14 @@ form h2 {
     margin-bottom: 25px;
 }
 
+label {
+    font-family: 'Trebuchet MS', 'Times New Roman';
+    font-size: 115%;
+    color: #F9F8F4;
+    line-height: 26px;
+    margin-bottom: 14px; 
+}
+
 /* logo and navigation menu */
 
 #logo {
@@ -339,7 +347,7 @@ audio {
 }
 
 .contact-box {
-    color: #F9F8F4;
+    color: #1a1a19;
     font-size: 120%;
 
     width: 511px;
@@ -347,7 +355,7 @@ audio {
 
     padding: 15px;
 
-    background-color: rgb(255, 225, 0, 0.7);
+    background-color: rgb(239, 211, 10, 0.86);
 
     position: absolute;
     bottom: 101px;
@@ -361,5 +369,5 @@ audio {
     width: 95%;
     height: 25px;
     margin: 5px 0 20px;
-    border: 1px solid #F9F8F4;
+    border: 2px solid #F9F8F4;
 }
