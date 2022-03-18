@@ -358,9 +358,9 @@ audio {
     background-color: rgb(239, 211, 10, 0.86);
 
     position: absolute;
-    bottom: 110px;
+    bottom: 70px;
     left: 113px;
-    padding: 59px;
+    padding: 59px 59px 101px 59px;
 }
 
 .input-field {
@@ -368,6 +368,15 @@ audio {
     background: transparent;
     width: 95%;
     height: 25px;
+    margin: 5px 0 20px;
+    border: 2px solid #F9F8F4;
+}
+
+.comment-field {
+    color: #5C5C5A; 
+    background: transparent;
+    width: 95%;
+    height: 107px;
     margin: 5px 0 20px;
     border: 2px solid #F9F8F4;
 }
