@@ -427,6 +427,9 @@ audio {
         top: 40px;
         left: 20px;
     }
+    .content-left img {
+        padding: 0 25px 0 0;
+    }
 }
 
 /* For smaller screens with a width of 950px and down  */
