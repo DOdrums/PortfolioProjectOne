@@ -410,10 +410,26 @@ audio {
 
 /* For larger screens to medium screens from 1300px wide and down */
 @media screen and (max-width: 1300px) {
-    
+    .border-box {
+        width: 283px;
+    }
+    .intro-text {
+        font-size: 105%;
+    }
+    .border-box-text {
+        font-size: 250%;
+        position: relative; 
+    }
+    .border-box-long-text {
+        font-size: 250%;
+        position: relative;
+        margin: 0;
+        top: 40px;
+        left: 20px;
+    }
 }
 
-/* For smaller screens with a width of 800px and down  */
-@media screen and (max-width: 800px) {
+/* For smaller screens with a width of 950px and down  */
+@media screen and (max-width: 950px) {
     
 }
