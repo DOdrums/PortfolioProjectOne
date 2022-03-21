@@ -405,3 +405,15 @@ audio {
     color: #EFD30B;
     background-color: #5C5C5A;
 }
+
+/* Media Queries */
+
+/* For larger screens to medium screens from 1300px wide and down */
+@media screen and (max-width: 1300px) {
+    
+}
+
+/* For smaller screens with a width of 800px and down  */
+@media screen and (max-width: 800px) {
+    
+}
