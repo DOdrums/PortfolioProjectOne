@@ -432,10 +432,13 @@ audio {
     }
 
     .drummer-box {
-        width: 888px;
+        width: 870px;
     }
     .drummer-box img{
-        width: 888px;
+        width: 870px;
+    }
+    .article-line {
+        width: 770px;
     }
 }
 
