@@ -219,7 +219,7 @@ label {
     color: #5C5C5A;
     font-size: 150%;
     margin: 79px 0 0 0;
-    width: 800px;
+    max-width: 800px;
     margin-left: calc((100% - 625px) / 2);
 }
 
