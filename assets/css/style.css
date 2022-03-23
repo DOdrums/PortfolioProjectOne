@@ -515,6 +515,21 @@ audio {
         margin-left: 20px;
     }
 
+    #sonny-payne-box {
+        width: 545px;
+        overflow: hidden;
+    }
+
+    #sonny-payne-box img {
+        padding: 43px 0 0 0;
+        position: relative;
+        left: 168px;
+    }
+
+    #sonny-payne-box .caption-small-margin {
+        margin-left: 462px;
+    }
+
 
 
 
