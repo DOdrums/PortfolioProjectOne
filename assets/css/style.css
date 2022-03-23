@@ -493,6 +493,19 @@ audio {
         margin-top: 26px;
     }
 
+    /* video sizing */
+    .video-box {
+        width: 667px;
+        height: 451px;
+    }
+
+    #impossible-solo {
+        font-size: 128%;
+        max-width: 619px;
+        margin-left: calc((100% - 515px) / 2);
+        margin-top: 44px;
+    }
+
 
 
 
