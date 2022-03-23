@@ -506,6 +506,15 @@ audio {
         margin-top: 44px;
     }
 
+    /* Reading and Playing page */
+    .article-line {
+        width: 650px;
+    }
+
+    .sheet-music-box {
+        margin-left: 20px;
+    }
+
 
 
 
