@@ -538,6 +538,12 @@ audio {
     #count-basie-box .caption-small-margin {
         margin-left: 516px;
     }
+    .drummer-box {
+        width: 714px;
+    }
+    .drummer-box img {
+        width: 714px;
+    }
 }
  /* For smaller screens with a width of 767px and down (tested to a min-width of 375px) */
  @media screen and (max-width: 767px) {
