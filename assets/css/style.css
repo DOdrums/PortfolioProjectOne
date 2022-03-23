@@ -529,13 +529,15 @@ audio {
     #sonny-payne-box .caption-small-margin {
         margin-left: 462px;
     }
+    /* three drummers page */
+    #count-basie-box img {
+        padding: 38px 0 0 0;
+        max-height: 585px;
+    }
 
-
-
-
-
-
-
+    #count-basie-box .caption-small-margin {
+        margin-left: 516px;
+    }
 }
  /* For smaller screens with a width of 767px and down (tested to a min-width of 375px) */
  @media screen and (max-width: 767px) {
