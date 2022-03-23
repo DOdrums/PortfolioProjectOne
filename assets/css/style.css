@@ -452,7 +452,9 @@ audio {
 
 /* For smaller screens with a width of 950px and down  */
 @media screen and (max-width: 950px) {
-    
+    #menu {
+        font-size: 104%;
+    }
 }
  /* For smaller screens with a width of 767px and down (tested to a min-width of 375px) */
  @media screen and (max-width: 767px) {
