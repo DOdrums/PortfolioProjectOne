@@ -431,6 +431,14 @@ audio {
         padding: 0 25px 0 0;
     }
 
+    #count-basie-box .caption-small-margin {
+        margin-left: 490px;
+    }
+
+    #sonny-payne-box .caption-small-margin {
+        margin-left: 502px;
+    }
+
     .drummer-box {
         width: 870px;
     }
