@@ -452,9 +452,53 @@ audio {
 
 /* For smaller screens with a width of 950px and down  */
 @media screen and (max-width: 950px) {
+    /* making menu and hero-image section responsive */
     #menu {
         font-size: 104%;
     }
+
+    #hero-image {
+        height: 498px;
+    }
+
+    #logo-text {
+        font-size: 249%;
+        padding-left: 0;
+    }
+
+    #sub-logo {
+        left: 407px;
+    }
+
+    #cover-text {
+        bottom: 115px;
+        left: 42px;
+    }
+    /* making about me section responsive */
+    .content-box {
+        margin: 0 auto 0 23px;
+    }
+
+    .content-left img {
+        padding: 80px 0 0 0;
+        max-height: 639px;
+    }
+
+    .content-right {
+        width: 42%;
+        margin-right: 20px; 
+    }
+    
+    .content-right p {
+        margin-top: 26px;
+    }
+
+
+
+
+
+
+
 }
  /* For smaller screens with a width of 767px and down (tested to a min-width of 375px) */
  @media screen and (max-width: 767px) {
