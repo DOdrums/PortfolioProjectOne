@@ -626,6 +626,11 @@ audio {
         font-size: 114%;
         margin: 5px auto;
         text-align: center;
+        max-width: 315px;
+    }
+    .video-box {
+        width: 452px;
+        height: 313px;
     }
 }
 
@@ -656,5 +661,9 @@ audio {
     }
     .content-right p {
         max-width: 260px;
+    }
+    .video-box {
+        width: 291px;
+        height: 200px;
     }
 }
