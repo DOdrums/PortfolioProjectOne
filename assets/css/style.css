@@ -607,6 +607,21 @@ audio {
         padding: 0;
         float: none;
     }
+    .content-right {
+        width: 100%;
+        margin: 0;
+    }
+    .border-box {
+        width: 310px;
+        margin: 0 auto;
+    }
+    .border-box h1 {
+        font-size: 262%;
+    }
+    .content-right p {
+        max-width: 330px;
+        margin: 0 auto;
+    } 
 }
 
 /* Few additions for screen sizes under 475px */
@@ -626,5 +641,15 @@ audio {
     }
     .content-left img {
         height: 394px;
+    }
+    .border-box {
+        width: 221px;
+        margin: 0 auto;
+    }
+    .border-box h1 {
+        font-size: 210%;
+    }
+    .content-right p {
+        max-width: 260px;
     }
 }
