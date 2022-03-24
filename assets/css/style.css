@@ -554,6 +554,7 @@ audio {
 }
  /* For smaller screens with a width of 767px and down (tested to a min-width of 320px) */
  @media screen and (max-width: 767px) {
+     /* logo and nav bar */
     #logo {
         display: none;
     }
@@ -562,5 +563,17 @@ audio {
         font-size: 103%;
         float: left;
         margin-left: 11px;
+    }
+    /* logo-text, cover-text, hero-image */
+    #logo-text {
+        font-size: 230%;
+        width: 320px;
+        padding-left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #hero-text {
+        left: -10px;
+        top: -16px;
     }
 }
