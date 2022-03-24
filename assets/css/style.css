@@ -576,6 +576,12 @@ audio {
         margin: 0 auto;
         text-align: center;
     }
+    #sub-logo {
+        left: 0;
+        font-size: 21px;
+        margin: 0 auto;
+        text-align: center;
+    }
     #hero-text {
         left: -10px;
         top: -16px;
@@ -593,5 +599,11 @@ audio {
         width: 248px;
         bottom: 0px;
         left: 15px;
+    }
+    #sub-logo {
+        font-size: 16px;
+        left: 126px;
+        margin: 0;
+        text-align: left;
     }
 }
