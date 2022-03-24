@@ -619,7 +619,7 @@ audio {
         font-size: 262%;
     }
     .content-right p {
-        max-width: 330px;
+        max-width: 80%;
         margin: 36px auto 0 auto;
     } 
     #impossible-solo {
@@ -653,15 +653,15 @@ audio {
         height: 394px;
     }
     .border-box {
-        width: 221px;
+        width: 71%;
         margin: 0 auto;
     }
     .border-box h1 {
         font-size: 210%;
     }
-    .content-right p {
+    /* .content-right p {
         max-width: 260px;
-    }
+    } */
     .video-box {
         width: 291px;
         height: 200px;
