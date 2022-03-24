@@ -580,8 +580,18 @@ audio {
         left: -10px;
         top: -16px;
     }
-    /* #cover-text {
+    #cover-text {
         font-size: 16px;
+        
+    }
+}
 
-    } */
+/* Few additions for screen sizes under 475px */
+@media screen and (max-width: 475px) {
+    #cover-text {
+        font-size: 16px;
+        width: 248px;
+        bottom: 0px;
+        left: 15px;
+    }
 }
