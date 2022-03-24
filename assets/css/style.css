@@ -457,8 +457,12 @@ audio {
         font-size: 104%;
     }
 
+    #hero-outer {
+        height: 523px;
+    }
+
     #hero-image {
-        height: 498px;
+        height: 523px;
     }
 
     #logo-text {
@@ -471,12 +475,12 @@ audio {
     }
 
     #cover-text {
-        bottom: 115px;
+        bottom: 24px;
         left: 42px;
     }
     /* making about me section responsive */
     .content-box {
-        margin: 0 auto 0 23px;
+        margin: 38px auto 0 23px;
     }
 
     .content-left img {
@@ -576,4 +580,8 @@ audio {
         left: -10px;
         top: -16px;
     }
+    /* #cover-text {
+        font-size: 16px;
+
+    } */
 }
