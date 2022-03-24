@@ -622,6 +622,11 @@ audio {
         max-width: 330px;
         margin: 36px auto 0 auto;
     } 
+    #impossible-solo {
+        font-size: 114%;
+        margin: 5px auto;
+        text-align: center;
+    }
 }
 
 /* Few additions for screen sizes under 475px */
