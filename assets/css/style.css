@@ -590,10 +590,25 @@ audio {
         font-size: 16px;
         
     }
+    .content-box {
+        margin: 38px 0 0 0;
+        width: 100%;
+    }
+    .content-left {
+        width: 100%;
+    }
+    .content-left img {
+        max-height: 504px;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        float: none;
+    }
 }
 
 /* Few additions for screen sizes under 475px */
 @media screen and (max-width: 475px) {
+    /* cover text and logo */
     #cover-text {
         font-size: 16px;
         width: 248px;
@@ -603,7 +618,10 @@ audio {
     #sub-logo {
         font-size: 16px;
         left: 126px;
-        margin: 0;
-        text-align: left;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .content-left img {
+        height: 394px;
     }
 }
