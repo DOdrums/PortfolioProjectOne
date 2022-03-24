@@ -562,9 +562,12 @@ audio {
     #logo {
         display: none;
     }
+
+    nav {
+        font-size: 103%;
+    }
     #menu {
         width: 320px;
-        font-size: 103%;
         float: left;
         margin-left: 11px;
     }
@@ -617,7 +620,7 @@ audio {
     }
     #sub-logo {
         font-size: 16px;
-        left: 126px;
+        left: 0;
         margin: 0 auto;
         text-align: center;
     }
