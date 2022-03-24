@@ -552,7 +552,15 @@ audio {
         left: 0px;
     }
 }
- /* For smaller screens with a width of 767px and down (tested to a min-width of 375px) */
+ /* For smaller screens with a width of 767px and down (tested to a min-width of 320px) */
  @media screen and (max-width: 767px) {
-    
+    #logo {
+        display: none;
+    }
+    #menu {
+        width: 320px;
+        font-size: 103%;
+        float: left;
+        margin-left: 11px;
+    }
 }
