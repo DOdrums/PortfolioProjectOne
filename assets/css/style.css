@@ -567,9 +567,12 @@ audio {
         font-size: 103%;
     }
     #menu {
-        width: 320px;
+        width: 293px;
         float: left;
         margin-left: 11px;
+    }
+    #menu li {
+        margin-right: 22px;
     }
     /* logo-text, cover-text, hero-image */
     #logo-text {
@@ -619,7 +622,7 @@ audio {
         font-size: 262%;
     }
     .content-right p {
-        max-width: 80%;
+        max-width: 91%;
         margin: 36px auto 0 auto;
     } 
     #impossible-solo {
@@ -653,7 +656,7 @@ audio {
         height: 394px;
     }
     .border-box {
-        width: 71%;
+        width: 76%;
         margin: 0 auto;
     }
     .border-box h1 {
