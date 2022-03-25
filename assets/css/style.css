@@ -626,6 +626,12 @@ audio {
     .border-box h1 {
         font-size: 262%;
     }
+    .border-box-long-text {
+        margin: 0 45px;
+    }
+    #reading-and-playing {
+        margin: 0;
+    }
     .content-right p {
         max-width: 91%;
         margin: 36px auto 0 auto;
@@ -660,7 +666,7 @@ audio {
 }
 
 /* Few additions for screen sizes under 475px */
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 449px) {
     /* cover text and logo */
     #cover-text {
         font-size: 16px;
