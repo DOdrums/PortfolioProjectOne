@@ -556,7 +556,7 @@ audio {
         left: 0px;
     }
 }
- /* For smaller screens with a width of 767px and down (tested to a min-width of 320px) */
+ /* For smaller screens with a width of 767px and down */
  @media screen and (max-width: 767px) {
      /* logo and nav bar */
     #logo {
@@ -663,9 +663,19 @@ audio {
         margin-top: 98px;
         display: inline-block;
     }
+    #count-basie-box {
+        width: auto;
+        float: none;
+    }
+    #count-basie-box img {
+        width: 87%;
+        max-width: 456px;
+        height: auto;
+        padding: 0;
+    }
 }
 
-/* Few additions for screen sizes under 475px */
+/* Few additions for screen sizes under 449px */
 @media screen and (max-width: 449px) {
     /* cover text and logo */
     #cover-text {
@@ -692,5 +702,9 @@ audio {
     }
     .video-box {
         margin: 13px;
+    }
+    /* reading and playing page */
+    #count-basie-box img {
+        width: 90%;
     }
 }
