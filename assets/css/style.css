@@ -562,7 +562,6 @@ audio {
     #logo {
         display: none;
     }
-
     nav {
         font-size: 103%;
     }
@@ -676,7 +675,6 @@ audio {
         margin: 0 auto;
         float: none;
     }
-    }
     /* three drummers page */
     #count-basie-box {
         width: auto;
@@ -687,6 +685,7 @@ audio {
         max-width: 456px;
         height: auto;
         padding: 0;
+    }
 }
 
 /* Few additions for screen sizes under 449px */
