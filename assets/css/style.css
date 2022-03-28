@@ -707,6 +707,15 @@ audio {
         height: auto;
         padding: 0;
     }
+    .drummer-box {
+        width: auto;
+    }
+    .drummer-box img {
+        width: 97%;
+    }
+    .drummer-box .caption-small-margin {
+        margin-left: 2%;
+    }
 }
 
 /* Few additions for screen sizes under 449px */
