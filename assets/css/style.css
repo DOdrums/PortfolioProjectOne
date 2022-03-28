@@ -675,6 +675,11 @@ audio {
         margin: 0 auto;
         float: none;
     }
+    .article-box {
+        width: 91%;
+        max-width: 91%;
+        margin: 0 auto;
+    }
     /* three drummers page */
     #count-basie-box {
         width: auto;
