@@ -685,6 +685,17 @@ audio {
         width: 75%;
         margin: 0 auto;
     }
+    .sheet-music-box {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .sheet-width {
+        width: auto;
+    }
+    .sheet-width img {
+        width: 100%;
+        height: auto;
+    }
     /* three drummers page */
     #count-basie-box {
         width: auto;
