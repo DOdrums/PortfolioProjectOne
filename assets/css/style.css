@@ -446,7 +446,7 @@ audio {
         width: 870px;
     }
     .article-line {
-        width: 770px;
+        width: 80%;
     }
 }
 
@@ -511,9 +511,6 @@ audio {
     }
 
     /* Reading and Playing page */
-    .article-line {
-        width: 650px;
-    }
 
     .sheet-music-box {
         margin-left: 20px;
