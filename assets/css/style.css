@@ -663,6 +663,21 @@ audio {
         margin-top: 98px;
         display: inline-block;
     }
+    #sonny-payne-box {
+        width: auto;
+        float: none;
+    }
+    #sonny-payne-box img {
+        left: 0;
+        padding: 0;
+        width: 80%;
+        max-width: 499px;
+        height: auto;
+        margin: 0 auto;
+        float: none;
+    }
+    }
+    /* three drummers page */
     #count-basie-box {
         width: auto;
         float: none;
@@ -672,7 +687,6 @@ audio {
         max-width: 456px;
         height: auto;
         padding: 0;
-    }
 }
 
 /* Few additions for screen sizes under 449px */
@@ -704,6 +718,10 @@ audio {
         margin: 13px;
     }
     /* reading and playing page */
+    #sonny-payne-box img {
+        width: 90%;
+    }
+    /* three drummers page */
     #count-basie-box img {
         width: 90%;
     }
