@@ -716,6 +716,17 @@ audio {
     .drummer-box .caption-small-margin {
         margin-left: 2%;
     }
+    /* contact page */
+    .contact-box {
+        margin: 0 auto;
+        font-size: 100%;
+        height: auto;
+        width: 65%;
+        top: 53px;
+        bottom: 0;
+        left: 0;
+        padding: 25px 24px 27px 49px;
+    }
 }
 
 /* Few additions for screen sizes under 449px */
