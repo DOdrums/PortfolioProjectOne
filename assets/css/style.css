@@ -323,6 +323,10 @@ figcaption {
     font-size: 140%
 }
 
+#landscape-note {
+    display: none;
+}
+
 audio {
     padding: 12px 0 23px 0;
 }
@@ -680,6 +684,11 @@ audio {
         width: 91%;
         max-width: 91%;
         margin: 0 auto;
+    }
+    #landscape-note {
+        display: block;
+        font-size: 88%;
+        font-weight: bold;
     }
     .quote-box {
         max-width: 75%;
