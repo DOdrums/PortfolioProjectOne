@@ -11,6 +11,7 @@
          url(../fonts/harmony_personal_use-webfont.woff2) format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
 
@@ -763,6 +764,9 @@ audio {
     }
     #count-basie-box .caption-small-margin {
         margin-left: 6%;
+    }
+    audio {
+        max-width: 99%;
     }
     /* three drummers page */
     #count-basie-box img {
