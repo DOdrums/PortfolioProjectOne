@@ -569,7 +569,7 @@ audio {
         margin-bottom: 16px;
     }
     #menu {
-        font-size: 113%;
+        font-size: 112%;
         width: 293px;
         float: left;
         margin-left: 11px;
@@ -726,5 +726,8 @@ audio {
     /* three drummers page */
     #count-basie-box img {
         width: 90%;
+    }
+    #sonny-payne-box .caption-small-margin {
+        margin-left: 6%;
     }
 }
