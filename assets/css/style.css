@@ -720,6 +720,9 @@ audio {
     #sonny-payne-box img {
         width: 90%;
     }
+    #count-basie-box .caption-small-margin {
+        margin-left: 6%;
+    }
     /* three drummers page */
     #count-basie-box img {
         width: 90%;
