@@ -680,6 +680,11 @@ audio {
         max-width: 91%;
         margin: 0 auto;
     }
+    .quote-box {
+        max-width: 75%;
+        width: 75%;
+        margin: 0 auto;
+    }
     /* three drummers page */
     #count-basie-box {
         width: auto;
