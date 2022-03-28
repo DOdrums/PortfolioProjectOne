@@ -771,4 +771,19 @@ audio {
     #sonny-payne-box .caption-small-margin {
         margin-left: 6%;
     }
+    /* contact page */
+    .contact-box {
+        width: 91%;
+        padding: 25px 10px 27px 16px;
+    }
+    .input-field {
+        width: 98%;
+    }
+    .comment-field {
+        width: 98%;
+    }
+    .submit-button {
+        width: 99%;
+    }
+
 }
