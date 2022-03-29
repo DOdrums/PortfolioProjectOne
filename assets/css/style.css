@@ -190,8 +190,8 @@ label {
     color: #5C5C5A;
     font-size: 300%;
     letter-spacing: 1px;
-    float: right;
-    margin: 71px 27px 0 0;
+    text-align: center; 
+    margin: 51px 0 0 0;
 }
 
 .content-left {
@@ -427,13 +427,12 @@ audio {
     .border-box-text {
         font-size: 250%;
         position: relative; 
+        margin: 58px 0 0 0;
     }
     .border-box-long-text {
         font-size: 250%;
         position: relative;
-        margin: 0;
-        top: 40px;
-        left: 20px;
+        margin: 35px 0 0 0;
     }
     .content-left img {
         padding: 0 25px 0 0;
@@ -630,9 +629,6 @@ audio {
     .border-box h1 {
         font-size: 262%;
     }
-    .border-box-long-text {
-        margin: 0 45px;
-    }
     #reading-and-playing {
         margin: 0;
     }
@@ -783,6 +779,9 @@ audio {
     }
     #sonny-payne-box .caption-small-margin {
         margin-left: 6%;
+    }
+    #border-box-padding {
+        padding: 0 31px 0 31px;
     }
     /* contact page */
     .contact-box {
