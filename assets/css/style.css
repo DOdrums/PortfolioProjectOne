@@ -677,6 +677,9 @@ audio {
         margin: 0 auto;
         float: none;
     }
+    #sonny-payne-box .caption-small-margin {
+        margin-left: 12%;
+    }
     .article-box {
         width: 91%;
         max-width: 91%;
@@ -721,6 +724,9 @@ audio {
         max-width: 456px;
         height: auto;
         padding: 0;
+    }
+    #count-basie-box .caption-small-margin {
+        margin-left: 13%;
     }
     .drummer-box {
         width: auto;
