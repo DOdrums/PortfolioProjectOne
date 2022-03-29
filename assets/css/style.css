@@ -682,6 +682,9 @@ audio {
         max-width: 91%;
         margin: 0 auto;
     }
+    .article-box h2 {
+        margin: 14px 0 15px 0;
+    }
     #landscape-note {
         display: block;
         font-size: 88%;
