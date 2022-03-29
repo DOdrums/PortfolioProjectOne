@@ -706,6 +706,11 @@ audio {
         width: 100%;
         height: auto;
     }
+    .caption {
+        font-size: 88%;
+        width: 92%;
+        margin-left: 20px;
+    }
     /* three drummers page */
     #count-basie-box {
         width: auto;
@@ -773,6 +778,11 @@ audio {
     }
     #count-basie-box .caption-small-margin {
         margin-left: 6%;
+    }
+    .caption {
+        font-size: 88%;
+        width: 80%;
+        margin-left: 11px;
     }
     audio {
         max-width: 99%;
