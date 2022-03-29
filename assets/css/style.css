@@ -177,7 +177,7 @@ label {
     height: 100%;
     float: right;
     margin-right: 60px;
-    padding: 35px 0;
+    padding: 35px 0 0 0;
 }
 
 .border-box {
@@ -621,6 +621,7 @@ audio {
     .content-right {
         width: 100%;
         margin: 0;
+        padding: 35px 0;
     }
     .border-box {
         width: 310px;
