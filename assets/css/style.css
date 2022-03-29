@@ -334,9 +334,9 @@ audio {
 /* back to top button */
 #return-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgba(73, 122, 255, .8);
+    bottom: 72px;
+    right: 56px;
+    background: rgba(92,92,90,0.8);
     width: 50px;
     height: 50px;
     display: block;
@@ -353,7 +353,7 @@ audio {
 }
 
 #return-to-top i {
-    color: #fff;
+    color: #EFD30B;
     margin: 0;
     position: relative;
     left: 16px;
@@ -367,10 +367,10 @@ audio {
 }
 
 #return-to-top:hover {
-    background: rgb(73, 122, 255);
+    background: rgba(92,92,90,0.8);
 }
 #return-to-top:hover i {
-    color: #fff;
+    color: #EFD30B;
     top: 5px;
 }
 
