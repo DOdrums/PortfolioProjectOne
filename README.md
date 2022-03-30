@@ -65,6 +65,7 @@ Other websites I used for inspiration and general coding examples and knowledge:
 * Nav bar inspiration and hero-image animation was taken from the love running walkthrough project
 * The CSS code `margin-left: calc((100% - 600px) / 2);` to center paragraphs on page 2 and 3 was taken from the NYtimes website, which uses this code to center text in their articles
 * The CSS code to make the youtube video responsive for screen sizes 767px and under, was taken from this website: [make youtube video responsive](https://avexdesigns.com/blog/responsive-youtube-embed) 
+* The javascript code for the back to top button was taken from this website: https://codeconvey.com/floating-back-to-top-button-html/ 
 
 ## Bugs
 * After finishing page 2 of the website, I noticed that the line underneath the nav bar was suddenly cut in half. This was caused by a bottom-margin property being added to the main font selector (which includes the nav element). This was solved by making a selector that contains a negative bottom-margin to the ul and il child elements of the nav element and by adding a nav selector that contains a bottom-margin of 0.

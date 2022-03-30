@@ -336,6 +336,7 @@ audio {
 }
 
 /* back to top button */
+/* code taken from: https://codeconvey.com/floating-back-to-top-button-html/ */
 #return-to-top {
     position: fixed;
     bottom: 72px;
@@ -398,7 +399,8 @@ audio {
 .quote-box {
     max-width: 505px;
     width: 505px;
-    margin-left: calc((100% - 505px) / 2);
+    /* next line of code taken from the NYtimes website */
+    margin-left: calc((100% - 505px) / 2); 
 }
 
 /* contact page */
@@ -686,7 +688,9 @@ audio {
     .content-right p {
         max-width: 91%;
         margin: 36px auto 0 auto;
-    } 
+    }
+     /* video element  */
+     /* code taken from: https://avexdesigns.com/blog/responsive-youtube-embed */
     #impossible-solo {
         font-size: 114%;
         margin: 5px auto;
