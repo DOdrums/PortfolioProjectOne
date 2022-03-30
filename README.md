@@ -1,23 +1,51 @@
 # Fundamentals of Big Band Drumming
 ## Portfolio Project 1: HTML/CSS Essentials
-![responsive images of website](assets/images/responsive-screens-website.jpg)
+![images of website on different devices](assets/images/responsive-screens-website.jpg)
 
 This project is built as part of the Code Institute Full Stack Software Development course. For this course, 
 Dirk Ornée had to build a first Portfolio Project. He choose to build a project that combines his knowledge as a professional musician, with his knowledge gained troughout the course. 
 
-[click here to go to a working link of the website](https://dodrums.github.io/PortfolioProjectOne/index.html)
+## Live Site
+[Fundamentals of Big Band Drumming](https://dodrums.github.io/PortfolioProjectOne/index.html)
 
-##### Table of Contents
+## Repository
+https://github.com/DOdrums/PortfolioProjectOne
+
+***
+
+## Table of Contents
 
 - [Fundamentals of Big Band Drumming](#fundamentals-of-big-band-drumming)
         - [Table of Contents](#table-of-contents)
   - [UX](#ux)
     - [Business goals](#business-goals)
 
-## UX
-Some text about UX
+# UX
+## Business goals
+The main goal for this project, is to develop a valuable resource for drummers and conductors, to learn about big band drumming. The website should be able to provide a helicopter view of what big band drumming is like, how it should be approached and what it should sound like. This should help conductors in giving pointers to drummers during rehearsals and should improve the playing of big band drummers who aren't very experienced yet.
+The second goal is to show my competency as a developer using HTML & CSS.
 
-### Business goals
+## Target Audience
+Drummers and Conductors are the main target audience, since the website really aims to help them specifically in understanding the function of a big band drummer better. However, anybody with some knowledge or just a general interest in big band music should be able to enjoy this website and learn something.
+
+## User Stories
+
+### As the owner:
+
+* I want to share my knowledge about big band drumming and keep everything I have learned over the years in one place (the website).
+* I want the user to really dive in, get interrested in the topic and get inspired to do more research by themselves.
+* I want the user to learn the fundamentels of big band drumming through this website, so they can use this information in a pragmatic way to develop their own style and preferences. 
+* I want to build a relationship with users, where they can contact me through the contact form if they have more questions, so I can help them out with anything drumming related. 
+
+### As a new user:
+* I want to navigate the site easily and intuitively, without having to wonder what the purpose of the site is.
+* I want to be redirected through the pages in an intuitive way, having a logical hierarchy to follow in order to learn everything I can from the website 
+* I came to this website specifically to learn about big band drumming, especially about topics within big band drumming which are hard to find recources for.
+
+### As a returning user:
+* I want to return to the information, to see if I'm already incorporating everything in my playing or conducting. 
+* I want to re-listen to the audio, to see if now that I have tried to use the information in pracitce, I start to recognize more of the information learned in the audio itself.
+* I want to contact the author, for any further questions I have. 
 
 ## Credits
 
