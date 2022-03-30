@@ -47,10 +47,18 @@ Drummers and Conductors are the main target audience, since the website really a
 * I want to re-listen to the audio, to see if now that I have tried to use the information in pracitce, I start to recognize more of the information learned in the audio itself.
 * I want to contact the author, for any further questions I have.
 
-# Structure of the website
+## Structure of the website
 
 The website is designed to give a good hierarchical flow. This means that after reading the homepage, the user will go to the second page (Reading & Playing) and read through this information. On the bottom of that page they will be prompted to continue to the Three Drummers page, which is the logical place to continue, as it builds on the information read in the Reading & Playing page. The pages however can also be used just by themselves, they both contain enough information to stand on their own. 
 Furthermore, the website is made fully responsive, so it functions on any device. That being said, as you'll be reading sheet music on the Reading & Playing page, a bigger screen is more fitting for that type of content. 
+
+## Features
+![image of all the features that could be added and their difficulty and feasability](assets/images/features.jpg)
+
+Before this project was started, a MoSCoW-method style table was made to see which global features should be added and which features would be omitted or added at a later date. You can see said features in the image above. Let's have a look at the features that actually made it to the website:
+
+### Home Page:
+
 
 ## Credits
 
