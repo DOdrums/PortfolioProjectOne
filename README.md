@@ -45,7 +45,12 @@ Drummers and Conductors are the main target audience, since the website really a
 ### As a returning user:
 * I want to return to the information, to see if I'm already incorporating everything in my playing or conducting. 
 * I want to re-listen to the audio, to see if now that I have tried to use the information in pracitce, I start to recognize more of the information learned in the audio itself.
-* I want to contact the author, for any further questions I have. 
+* I want to contact the author, for any further questions I have.
+
+# Structure of the website
+
+The website is designed to give a good hierarchical flow. This means that after reading the homepage, the user will go to the second page (Reading & Playing) and read through this information. On the bottom of that page they will be prompted to continue to the Three Drummers page, which is the logical place to continue, as it builds on the information read in the Reading & Playing page. The pages however can also be used just by themselves, they both contain enough information to stand on their own. 
+Furthermore, the website is made fully responsive, so it functions on any device. That being said, as you'll be reading sheet music on the Reading & Playing page, a bigger screen is more fitting for that type of content. 
 
 ## Credits
 
