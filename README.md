@@ -110,7 +110,7 @@ The three drummers page is similar in layout and features to the Reading & Playi
 On this last page, you'll find a contact box where the user can input their information and ask the author a question. For the author's convenience a 'Profession/Instrument' box was added, so author can tailor make his response to any questions. 
 ![image of contact section](assets/images/feature-contact.jpg)
 
-## Credits
+# Credits
 
 To be able to build this project in gitpod, I used the template made by Code Institute, as found here: [full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
@@ -118,19 +118,25 @@ Other websites I used for inspiration and general coding examples and knowledge:
 * [w3schools](https://www.w3schools.com/)
 * [awwwards](https://www.awwwards.com/)
 
-### Code
+## Code
 * Nav bar inspiration and hero-image animation was taken from the love running walkthrough project
 * The CSS code `margin-left: calc((100% - 600px) / 2);` to center paragraphs on page 2 and 3 was taken from the NYtimes website, which uses this code to center text in their articles
 * The CSS code to make the youtube video responsive for screen sizes 767px and under, was taken from this website: [make youtube video responsive](https://avexdesigns.com/blog/responsive-youtube-embed) 
 * The javascript code for the back to top button was taken from this website: https://codeconvey.com/floating-back-to-top-button-html/ 
 
-### Images
+## Images
 insert where images were found
 
-### Media
+## Media
 * Audio examples were taken from author's personal music library.
 
-## Bugs
+# Testing
+## Compatibility testing
+## User stories testing
+## Performance testing
+## Code validation
+
+# Bugs
 * After finishing page 2 of the website, I noticed that the line underneath the nav bar was suddenly cut in half. This was caused by a bottom-margin property being added to the main font selector (which includes the nav element). This was solved by making a selector that contains a negative bottom-margin to the ul and il child elements of the nav element and by adding a nav selector that contains a bottom-margin of 0.
 * The thumbnail of the youtube video would dissapear in and out of frame partially when resizing the window. After some playing around in the chrome dev tools, I discovered this was due to the width being set to a percentage setting instead of pixels. I changed it to pixels and now the thumbnail stayed sized the same no matter the window size.
 * There was a problem with the hero image after resizing it to fit tablet sizes. The hero image was now zooming into the div below instead of behind it. This was because I changed the height setting of hero-image id but not of the hero-outer id.
