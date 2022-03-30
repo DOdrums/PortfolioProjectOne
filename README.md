@@ -58,7 +58,57 @@ Furthermore, the website is made fully responsive, so it functions on any device
 Before this project was started, a MoSCoW-method style table was made to see which global features should be added and which features would be omitted or added at a later date. You can see said features in the image above. Let's have a look at the features that actually made it to the website:
 
 ### Home Page:
+The home page is where the user will learn about the project and it's function. Right at the top is a nav bar, making clear which sections the website is divided in. The current active page will be underlined in yellow and user will get a conformation that other links work when hovering over them, by temporarily having hovered link underlined yellow:
 
+![image of nav bar](assets/images/feature-nav.png)
+
+Right below the nav bar we find the title and cover text, with a captivating hero-image behind it. The cover text is writen short and concise, but with a clear explanation of the website's main goal: 
+
+![image of hero-image and cover-text](assets/images/feature-hero-image.jpg)
+
+Next is the About Me section, which explains quickly who the author is and why he wrote this website. You'll also see a picture, to put a face to the name:
+
+![image of about me section](assets/images/feature-about-me.jpg)
+
+Underneath the about me section, you'll find a video of Buddy Rich playing an impressive drum solo! This video is meant to attract the attention of the user and make them want to learn more about big band drumming: 
+
+![image of video section](assets/images/feature-video.jpg)
+
+Finally we have the footer section. This footer section features four socials links, in case user wants to get to know more about the author:
+
+![image of footer](assets/images/feature-footer.png)
+
+### Reading & Playing page
+
+The reading and playing page starts of with an introduction explaining that on this page you will learn how to interpret notes as a big band drummer. It also mentions you should know how to read sheet music in order to take full advantage of the information on this page. There is an image of famous drummer Sonny Payne with a hyperlink to Wikipedia in case you want to learn more:
+
+![image of intro](assets/images/feature-intro.jpg)
+
+Next user will start reading all about big band drumming and get sheet music examples to see what a drum sheet looks like, with explanations about what everything on the sheet means:
+
+![image of sheet music and text](assets/images/feature-text-sheet.jpg)
+
+Sroll further and user will find the first audio example. These audio examples are used to give a live example of what the drumming sounds like and to connect the theory to the practice:
+
+![image of audio track](assets/images/feature-audio.png)
+
+At the end of the page multiple lists are introduced to sum up some simple best practices for playing big band music. These lists give the user a clear overview of what is important to know about big band drumming and is a good place to return to a second time, when refreshing their knowledge about the topic:
+
+![image of lists](assets/images/feature-list.jpg)
+
+Notice that on the side of the page, there is a little button with an arrow in it. This button will bring you back to the top of the page when clicked:
+
+![image of back to top button](assets/images/feature-back-to-top.png)
+
+### Three Drummers page
+
+The three drummers page is similar in layout and features to the Reading & Playing page, sporting an intro, text and audio examples. On this page though, instead of sheet music, you'll find nice oversized images of each drummer covered on this page:
+
+![large image of buddy rich](assets/images/feature-image-large.jpg)
+
+### Contact page
+On this last page, you'll find a contact box where the user can input their information and ask the author a question. For the author's convenience a 'Profession/Instrument' box was added, so author can tailor make his response to any questions. 
+![image of contact section](assets/images/feature-contact.jpg)
 
 ## Credits
 
@@ -67,13 +117,18 @@ To be able to build this project in gitpod, I used the template made by Code Ins
 Other websites I used for inspiration and general coding examples and knowledge:
 * [w3schools](https://www.w3schools.com/)
 * [awwwards](https://www.awwwards.com/)
-* 
 
 ### Code
 * Nav bar inspiration and hero-image animation was taken from the love running walkthrough project
 * The CSS code `margin-left: calc((100% - 600px) / 2);` to center paragraphs on page 2 and 3 was taken from the NYtimes website, which uses this code to center text in their articles
 * The CSS code to make the youtube video responsive for screen sizes 767px and under, was taken from this website: [make youtube video responsive](https://avexdesigns.com/blog/responsive-youtube-embed) 
 * The javascript code for the back to top button was taken from this website: https://codeconvey.com/floating-back-to-top-button-html/ 
+
+### Images
+insert where images were found
+
+### Media
+* Audio examples were taken from author's personal music library.
 
 ## Bugs
 * After finishing page 2 of the website, I noticed that the line underneath the nav bar was suddenly cut in half. This was caused by a bottom-margin property being added to the main font selector (which includes the nav element). This was solved by making a selector that contains a negative bottom-margin to the ul and il child elements of the nav element and by adding a nav selector that contains a bottom-margin of 0.
