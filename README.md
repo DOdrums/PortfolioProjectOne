@@ -68,7 +68,7 @@ Drummers and Conductors are the main target audience, since the website really a
 
 ### As a returning user:
 * I want to return to the information, to see if I'm already incorporating everything in my playing or conducting. 
-* I want to re-listen to the audio, to see if now that I have tried to use the information in pracitce, I start to recognize more of the information learned in the audio itself.
+* I want to re-listen to the audio, to see if now that I have tried to use the information in practice, I start to recognize more of the information learned in the audio itself.
 * I want to contact the author, for any further questions I have.
 
 ## Structure of the website
@@ -155,8 +155,39 @@ insert where images were found
 * Audio examples were taken from author's personal music library.
 
 # Testing
+## Functionality testing 
+Throughout developing the website I mostly used Chrome developer tools to solve issues and try out news styles. Since you see the results immediately, it is a faster way of working than adding code to your project and refreshing your page after every step. Every once in a while I'd open the website in Safari, to make sure it was also functional in this browser, since Safari is notorious for having the worst HTML support.  
 ## Compatibility testing
+The site was tested by myself on an iPhone 8 and a 15 inch Macbook Pro. Friends and family also tested the website on Windows Desktops, the original (small) iPhone SE, and Android devices. No problems or responsiveness issues were found. 
 ## User stories testing
+
+### As the owner:
+
+* I want to share my knowledge about big band drumming and keep everything I have learned over the years in one place (the website).
+  - I was able to make a well structured website with clear information about big band drumming. Most of the relevant information I know, can be found on this website. 
+* I want the user to really dive in, get interrested in the topic and get inspired to do more research by themselves.
+  - The video on the homepage should captivate the user and make them want to dive in to the material deeper.
+* I want the user to learn the fundamentels of big band drumming through this website, so they can use this information in a pragmatic way to develop their own style and preferences. 
+  - User can learn through text, sheet music and audio. It is well structured and easy to digest information.
+* I want to build a relationship with users, where they can contact me through the contact form if they have more questions, so I can help them out with anything drumming related. 
+  - User can find a dedicated contact page urging user to contact author in case they have any more questions. 
+
+### As a new user:
+* I want to navigate the site easily and intuitively, without having to wonder what the purpose of the site is.
+  - Purpose of page is explained to user in the cover text. After that, user can read a short intro about the author and watch a short video that displays some high quality big band drumming. User should be ready to dive in to the information expecting more information about big band drumming.
+* I want to be redirected through the pages in an intuitive way, having a logical hierarchy to follow in order to learn everything I can from the website
+  - User will feel a natural flow throughout the page, having to only scroll down through the two main information pages and being urged to continue with the Three Drummers page after finishing the Reading & Playing page. 
+* I came to this website specifically to learn about big band drumming, especially about topics within big band drumming which are hard to find recources for.
+  - User is expected to already have some knowledge about music and (playing) drums. It is meant as a specialized resoure where user can learn about big band drumming that are hard to find in other sources. 
+
+### As a returning user:
+* I want to return to the information, to see if I'm already incorporating everything in my playing or conducting. 
+  - Information is structured in bite sized portions, makeing it easy to return to the information and look for a specific section, in case user wants to revisit certain information.
+* I want to re-listen to the audio, to see if now that I have tried to use the information in practice, I start to recognize more of the information learned in the audio itself.
+  - Audio will be available easily and is fully user controlled, making it easy re-play or forward through the music.
+* I want to contact the author, for any further questions I have.
+  - User can find a dedicated contact page on the website.
+
 ## Performance testing
 ## Code validation
 
