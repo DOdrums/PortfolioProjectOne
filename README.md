@@ -149,7 +149,17 @@ Other websites I used for inspiration and general coding examples and knowledge:
 * The javascript code for the back to top button was taken from this website: https://codeconvey.com/floating-back-to-top-button-html/ 
 
 ## Images
-insert where images were found
+### Reading and Playing page
+* [Sonny Payne](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.drummerworld.com%2Fdrummers%2FSonny_Payne.html&psig=AOvVaw2bWMD7woDaYUibaL3AcNO6&ust=1646920023056000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCqyaiVufYCFQAAAAAdAAAAABAD)
+### Three Drummers page
+* [Count Basie](https://photos.com/featured/count-basie-in-made-in-paris-bettmann.html)
+* [Mel Lewis](https://www.google.com/url?sa=i&url=https%3A%2F%2Fstuartnicholson.uk%2Fmel-lewis-2%2F&psig=AOvVaw0w5kHGuDkLF0mSZYWRtQUU&ust=1647101577681000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKiSvdm5vvYCFQAAAAAdAAAAABAD)
+* [Butch Miles](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.namm.org%2Flibrary%2Foral-history%2Fbutch-miles&psig=AOvVaw0AX3haz_d2_Frot9bgQI5h&ust=1647103356646000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCP5LPAvvYCFQAAAAAdAAAAABAD)
+* [Sonny Payne](https://scontent-amt2-1.xx.fbcdn.net/v/t31.18172-8/18278341_1175291792581504_6415546467369244938_o.png?_nc_cat=105&ccb=1-5&_nc_sid=9267fe&_nc_ohc=TIDBaAeT5uEAX_Vomst&_nc_ht=scontent-amt2-1.xx&oh=00_AT8m9VzlClA64XBLo14HZjxb1t1mZLOIEHBMThotvUsKgA&oe=624FB9D1)
+### Contact page
+* [Count Basie Big Band](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.last.fm%2Fmusic%2FCount%2BBasie%2B%26%2BHis%2BOrchestra&psig=AOvVaw3gib7PEU6RCHmW6z8rne8H&ust=1647618925218000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKC-i_nAzfYCFQAAAAAdAAAAABAD)
+
+Any other images displayed on the website were shot by the author.
 
 ## Media
 * Audio examples were taken from author's personal music library.
@@ -194,6 +204,11 @@ I used the Lighthouse tool in Chrome Developer Tools to test certain key factors
 ![image of lighthouse scores](assets/images/lighthouse.png)
 
 ## Code validation
+To validate the code I used the following two tools:
+[Nu Html Checker](https://validator.w3.org/nu/)
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+Both validators returned no significant errors on any of the pages. 
 
 ## Bugs
 * After finishing page 2 of the website, I noticed that the line underneath the nav bar was suddenly cut in half. This was caused by a bottom-margin property being added to the main font selector (which includes the nav element). This was solved by making a selector that contains a negative bottom-margin to the ul and il child elements of the nav element and by adding a nav selector that contains a bottom-margin of 0.
