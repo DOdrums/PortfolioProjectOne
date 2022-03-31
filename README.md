@@ -189,9 +189,13 @@ The site was tested by myself on an iPhone 8 and a 15 inch Macbook Pro. Friends 
   - User can find a dedicated contact page on the website.
 
 ## Performance testing
+I used the Lighthouse tool in Chrome Developer Tools to test certain key factors of the website troughout development. This helped me to spot errors or possibble improvements and mostly helped me in keeping the website fast and the code up to snuff with current best practices. Scores can be seen in the image below:
+
+![image of lighthouse scores](assets/images/lighthouse.png)
+
 ## Code validation
 
-# Bugs
+## Bugs
 * After finishing page 2 of the website, I noticed that the line underneath the nav bar was suddenly cut in half. This was caused by a bottom-margin property being added to the main font selector (which includes the nav element). This was solved by making a selector that contains a negative bottom-margin to the ul and il child elements of the nav element and by adding a nav selector that contains a bottom-margin of 0.
 * The thumbnail of the youtube video would dissapear in and out of frame partially when resizing the window. After some playing around in the chrome dev tools, I discovered this was due to the width being set to a percentage setting instead of pixels. I changed it to pixels and now the thumbnail stayed sized the same no matter the window size.
 * There was a problem with the hero image after resizing it to fit tablet sizes. The hero image was now zooming into the div below instead of behind it. This was because I changed the height setting of hero-image id but not of the hero-outer id.
