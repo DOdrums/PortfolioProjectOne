@@ -164,6 +164,17 @@ Any other images displayed on the website were shot by the author.
 ## Media
 * Audio examples were taken from author's personal music library.
 
+# Technologies used
+[HTML](https://html.spec.whatwg.org/) - for basic structuring and semantic markup of the document.
+[CSS](https://www.w3.org/Style/CSS/Overview.en.html) - to provide styling to all the pages.
+[Preview (Mac)](https://support.apple.com/guide/preview/welcome/mac) - for converting images to smaller file sizes.
+Color Palette generator for generating the color schemes.
+[Font Awesome](https://fontawesome.com/) - for items used in footer and back to top button.
+[Awwwards](https://www.awwwards.com/awwwards/collections/free-fonts/) - for the heading font.
+[Gitpod](https://www.gitpod.io/) - used to connect a browser based VScode to github.
+[Github](https://github.com/) - used for version control and deployment of the website.
+[Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php) - to create an image of the website shown on different devices.
+
 # Testing
 ## Functionality testing 
 Throughout developing the website I mostly used Chrome developer tools to solve issues and try out news styles. Since you see the results immediately, it is a faster way of working than adding code to your project and refreshing your page after every step. Every once in a while I'd open the website in Safari, to make sure it was also functional in this browser, since Safari is notorious for having the worst HTML support.  
@@ -215,3 +226,19 @@ Both validators returned no significant errors on any of the pages.
 * The thumbnail of the youtube video would dissapear in and out of frame partially when resizing the window. After some playing around in the chrome dev tools, I discovered this was due to the width being set to a percentage setting instead of pixels. I changed it to pixels and now the thumbnail stayed sized the same no matter the window size.
 * There was a problem with the hero image after resizing it to fit tablet sizes. The hero image was now zooming into the div below instead of behind it. This was because I changed the height setting of hero-image id but not of the hero-outer id.
 * There was a problem with the figcaption under the count basie image not aligning. This happened because I moved around CSS rules insize the media query section, and misplaced a bracket because of that. This misplaced bracket made two CSS rules fall outside of the media query and were now applied project-wide. It took a while to find what caused this, but Chrome Developer tools made it quite easy to see that the wrong styles were being applied at bigger screen sizes.
+
+## Deployment
+
+The site was deployed through Github Pages. Connected to Github was Gitpod, which features a browser based VScode. For the most part I used the connection to Gitpod with a desktop VScode, since I have VIM and other extensions installed, which didn't work in the browser based version. 
+
+To the deploy the project, I had to:
+* Go to settings in github
+* Scroll down to Pages
+* Select the main branch
+* Hit save to deploy the website
+
+To test the website locally while building:
+* Open terminal in the open VScode project
+* Start http server by typing 'python3 -m http.server' into the terminal window
+* Click the 'Open Browser' button that appears
+
