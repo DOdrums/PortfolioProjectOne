@@ -245,11 +245,17 @@ footer {
 }
 
 .socials {
-    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
 }
 
 .socials > li {
-    display: inline;
+    width: 17%;
+    display: inline-flex;
+    margin: 0;
 }
 
 .socials i {
@@ -257,6 +263,10 @@ footer {
     color: #F9F8F4;
     margin: .8% 5% 0 5%;
     padding: .5%;
+}
+
+.socials a {
+    margin: 0 auto;
 }
 
 /* 404 page */
