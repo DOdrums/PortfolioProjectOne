@@ -76,6 +76,25 @@ Drummers and Conductors are the main target audience, since the website really a
 The website is designed to give a good hierarchical flow. This means that after reading the homepage, the user will go to the second page (Reading & Playing) and read through this information. On the bottom of that page they will be prompted to continue to the Three Drummers page, which is the logical place to continue, as it builds on the information read in the Reading & Playing page. The pages however can also be used just by themselves, they both contain enough information to stand on their own. 
 Furthermore, the website is made fully responsive, so it functions on any device. That being said, as you'll be reading sheet music on the Reading & Playing page, a bigger screen is more fitting for that type of content. 
 
+## Color Scheme
+The Color Scheme was chosen to represent a somewhat old fashioned look, especially since a lot of the images are black and white, which could look weird on a very modern looking website. To make the website not appear boring, a bright yellow (Safety Yellow) was used.
+The main color palette can be seen below:
+
+![main color palette](assets/images/color-main.png)
+
+Of this color pallette the following colors were used:
+* Eerie Black
+* Cultured
+* Safety Yellow
+
+A secondary color palette was used for extra colors:
+
+![secondary color palette](assets/images/color-alternative.png)
+
+Of this color palette the following colors were used:
+* Davy's Grey
+* Pale Silver
+
 ## Features
 ![image of all the features that could be added and their difficulty and feasability](assets/images/features.jpg)
 
