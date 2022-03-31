@@ -134,6 +134,20 @@ The three drummers page is similar in layout and features to the Reading & Playi
 On this last page, you'll find a contact box where the user can input their information and ask the author a question. For the author's convenience a 'Profession/Instrument' box was added, so author can tailor make his response to any questions. 
 ![image of contact section](assets/images/feature-contact.jpg)
 
+## Future Features
+### Styles
+In the three drummers page, three different ways of playing big band music are discussed. However, these three different ways all fall inside a quite similar big band style. There are different styles of big band music and playing, that fall outside of my expertise, but could be added in a seperate page to at least familiarise the user with them. 
+### Sounds
+On the three drummers page, the drum kits that are used by the drummers are briefly discussed. A seperate page dedicated to what kind of sound different drum kit make could be made, covering how to tune your drum kit in different ways as well and what to look for in a good jazz cymbal. 
+### Technique
+This page would be specifically for drummers and discusses what kind of drumming techniques to use to get a good swinging feel and sound. 
+### Hamburger Menu
+Since Javascript wasn't used inside this project, a hamburger menu couldn't be made. In a future release (outside of the course), this could be added for better usability on smartphones. 
+### Differenly sized sheets for smartphone sizes
+Although the sheet music is readable on a phone when held in landscape mode, it doesn't read nicely when in portrait mode. This could be mitigated by cutting up the sheets in smaller portions, and aligning these portions underneath each other. However, with the sheets currently used, this could not be done, since the resolution was not high enough and the pictures were slightly warped (new sheet music could be custom-made to mitigate this).  
+### Working Contact form
+Although the contact form is build up properly, there was no back-end section in this project. This means the information is not sent anywhere. In a future update this functionality could be added, so the author actually recieves any input by users. 
+
 # Credits
 
 To be able to build this project in gitpod, I used the template made by Code Institute, as found here: [full template](https://github.com/Code-Institute-Org/gitpod-full-template)
