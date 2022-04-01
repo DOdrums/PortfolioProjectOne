@@ -269,6 +269,10 @@ footer {
     margin: 0 auto;
 }
 
+.socials i:hover {
+    color: #EFD30B;
+}
+
 /* 404 page */
 .error-page {
     width: 507px;
