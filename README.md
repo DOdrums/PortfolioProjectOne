@@ -304,3 +304,5 @@ To test the website locally while building:
 * Start http server by typing 'python3 -m http.server' into the terminal window
 * Click the 'Open Browser' button that appears
 
+# Acknowledgements
+This website was built as part of the Full Stack Software Development course from Code Institute. I would like to thank my mentor Adeye Adegbenga, for his excelent feedback and guidance throughout the development of the project. I would also like to thank friends and family, who all took a look at the finished project to make sure it worked well and if I could improve things. Lastly, a special thanks to Riyadh Khan, who gave me excellent feedback in the peer-code-review channel on slack. 
