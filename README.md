@@ -193,21 +193,22 @@ Other websites I used for inspiration and general coding examples and knowledge:
 * [awwwards](https://www.awwwards.com/)
 
 ## Code
-* Nav bar inspiration and hero-image animation was taken from the love running walkthrough project
+* Nav bar inspiration and code for hero-image animation was taken from the [love running](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md) walkthrough project
 * The CSS code `margin-left: calc((100% - 600px) / 2);` to center paragraphs on page 2 and 3 was taken from the NYtimes website, which uses this code to center text in their articles
 * The CSS code to make the youtube video responsive for screen sizes 767px and under, was taken from this website: [make youtube video responsive](https://avexdesigns.com/blog/responsive-youtube-embed) 
 * The javascript code for the back to top button was taken from this website: https://codeconvey.com/floating-back-to-top-button-html/ 
 
 ## Images
+Several images were taken from other website:
 ### Reading and Playing page
-* [Sonny Payne](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.drummerworld.com%2Fdrummers%2FSonny_Payne.html&psig=AOvVaw2bWMD7woDaYUibaL3AcNO6&ust=1646920023056000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCqyaiVufYCFQAAAAAdAAAAABAD)
+* [Sonny Payne image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.drummerworld.com%2Fdrummers%2FSonny_Payne.html&psig=AOvVaw2bWMD7woDaYUibaL3AcNO6&ust=1646920023056000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCqyaiVufYCFQAAAAAdAAAAABAD)
 ### Three Drummers page
-* [Count Basie](https://photos.com/featured/count-basie-in-made-in-paris-bettmann.html)
-* [Mel Lewis](https://www.google.com/url?sa=i&url=https%3A%2F%2Fstuartnicholson.uk%2Fmel-lewis-2%2F&psig=AOvVaw0w5kHGuDkLF0mSZYWRtQUU&ust=1647101577681000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKiSvdm5vvYCFQAAAAAdAAAAABAD)
-* [Butch Miles](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.namm.org%2Flibrary%2Foral-history%2Fbutch-miles&psig=AOvVaw0AX3haz_d2_Frot9bgQI5h&ust=1647103356646000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCP5LPAvvYCFQAAAAAdAAAAABAD)
-* [Sonny Payne](https://scontent-amt2-1.xx.fbcdn.net/v/t31.18172-8/18278341_1175291792581504_6415546467369244938_o.png?_nc_cat=105&ccb=1-5&_nc_sid=9267fe&_nc_ohc=TIDBaAeT5uEAX_Vomst&_nc_ht=scontent-amt2-1.xx&oh=00_AT8m9VzlClA64XBLo14HZjxb1t1mZLOIEHBMThotvUsKgA&oe=624FB9D1)
+* [Count Basie image](https://photos.com/featured/count-basie-in-made-in-paris-bettmann.html)
+* [Mel Lewis image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fstuartnicholson.uk%2Fmel-lewis-2%2F&psig=AOvVaw0w5kHGuDkLF0mSZYWRtQUU&ust=1647101577681000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKiSvdm5vvYCFQAAAAAdAAAAABAD)
+* [Butch Miles image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.namm.org%2Flibrary%2Foral-history%2Fbutch-miles&psig=AOvVaw0AX3haz_d2_Frot9bgQI5h&ust=1647103356646000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCP5LPAvvYCFQAAAAAdAAAAABAD)
+* [Sonny Payne image](https://scontent-amt2-1.xx.fbcdn.net/v/t31.18172-8/18278341_1175291792581504_6415546467369244938_o.png?_nc_cat=105&ccb=1-5&_nc_sid=9267fe&_nc_ohc=TIDBaAeT5uEAX_Vomst&_nc_ht=scontent-amt2-1.xx&oh=00_AT8m9VzlClA64XBLo14HZjxb1t1mZLOIEHBMThotvUsKgA&oe=624FB9D1)
 ### Contact page
-* [Count Basie Big Band](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.last.fm%2Fmusic%2FCount%2BBasie%2B%26%2BHis%2BOrchestra&psig=AOvVaw3gib7PEU6RCHmW6z8rne8H&ust=1647618925218000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKC-i_nAzfYCFQAAAAAdAAAAABAD)
+* [Count Basie Big Band image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.last.fm%2Fmusic%2FCount%2BBasie%2B%26%2BHis%2BOrchestra&psig=AOvVaw3gib7PEU6RCHmW6z8rne8H&ust=1647618925218000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKC-i_nAzfYCFQAAAAAdAAAAABAD)
 
 Any other images displayed on the website were shot by the author.
 
@@ -216,18 +217,26 @@ Any other images displayed on the website were shot by the author.
 
 # Technologies used
 [HTML](https://html.spec.whatwg.org/) - for basic structuring and semantic markup of the document.
+
 [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - to provide styling to all the pages.
+
 [Preview (Mac)](https://support.apple.com/guide/preview/welcome/mac) - for converting images to smaller file sizes.
+
 Color Palette generator for generating the color schemes.
+
 [Font Awesome](https://fontawesome.com/) - for items used in footer and back to top button.
+
 [Awwwards](https://www.awwwards.com/awwwards/collections/free-fonts/) - for the heading font.
+
 [Gitpod](https://www.gitpod.io/) - used to connect a browser based VScode to github.
+
 [Github](https://github.com/) - used for version control and deployment of the website.
+
 [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php) - to create an image of the website shown on different devices.
 
 # Testing
 ## Functionality testing 
-Throughout developing the website I mostly used Chrome developer tools to solve issues and try out news styles. Since you see the results immediately, it is a faster way of working than adding code to your project and refreshing your page after every step. Every once in a while I'd open the website in Safari, to make sure it was also functional in this browser, since Safari is notorious for having the worst HTML support.  
+Throughout the development of this website Chrome developer tools was used to solve issues and try out new styles. Since you see the results immediately, it is a faster way of working than adding code to your project and refreshing your page after every step. Every once in a while I'd open the website in Safari, to make sure it was also functional in this browser, since Safari is notorious for having the worst HTML support.  
 ## Compatibility testing
 The site was tested by myself on an iPhone 8 and a 15 inch Macbook Pro. Friends and family also tested the website on Windows Desktops, the original (small) iPhone SE, and Android devices. No problems or responsiveness issues were found. 
 ## User stories testing
