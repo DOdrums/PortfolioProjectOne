@@ -238,7 +238,7 @@ Color Palette generator for generating the color schemes.
 ## Functionality testing 
 Throughout the development of this website Chrome developer tools was used to solve issues and try out new styles. Since you see the results immediately, it is a faster way of working than adding code to your project and refreshing your page after every step. Every once in a while I'd open the website in Safari, to make sure it was also functional in this browser, since Safari is notorious for having the worst HTML support.  
 ## Compatibility testing
-The site was tested by myself on an iPhone 8 and a 15 inch Macbook Pro. Friends and family also tested the website on Windows Desktops, the original (small) iPhone SE, and Android devices. No problems or responsiveness issues were found. 
+The site was tested by myself on an iPhone 8 and a 15 inch Macbook Pro. Friends and family also tested the website on Windows Desktops, the original (small) iPhone SE, and Android devices. The website was also tested in Chrome, Firefox and Safari. No problems or responsiveness issues were found. 
 ## User stories testing
 
 ### As the owner:
@@ -247,6 +247,7 @@ The site was tested by myself on an iPhone 8 and a 15 inch Macbook Pro. Friends 
   - I was able to make a well structured website with clear information about big band drumming. Most of the relevant information I know, can be found on this website. 
 * I want the user to really dive in, get interrested in the topic and get inspired to do more research by themselves.
   - The video on the homepage should captivate the user and make them want to dive in to the material deeper.
+  - The short audio clips should further peak there interesest and make them want to listen to more big band music.
 * I want the user to learn the fundamentels of big band drumming through this website, so they can use this information in a pragmatic way to develop their own style and preferences. 
   - User can learn through text, sheet music and audio. It is well structured and easy to digest information.
 * I want to build a relationship with users, where they can contact me through the contact form if they have more questions, so I can help them out with anything drumming related. 
@@ -262,9 +263,9 @@ The site was tested by myself on an iPhone 8 and a 15 inch Macbook Pro. Friends 
 
 ### As a returning user:
 * I want to return to the information, to see if I'm already incorporating everything in my playing or conducting. 
-  - Information is structured in bite sized portions, makeing it easy to return to the information and look for a specific section, in case user wants to revisit certain information.
-* I want to re-listen to the audio, to see if now that I have tried to use the information in practice, I start to recognize more of the information learned in the audio itself.
-  - Audio will be available easily and is fully user controlled, making it easy re-play or forward through the music.
+  - Information is structured in bite sized portions, making it easy to return to the information and look for a specific section, in case user wants to revisit certain information.
+* I want to re-listen to the audio, to see if now that I have tried to use the information in practice, I start to recognize more of the information I read, in the audio itself.
+  - Audio will be available to play as much as the user wants and is fully user controlled, making it easy to re-play or fast forward (or back) through the music.
 * I want to contact the author, for any further questions I have.
   - User can find a dedicated contact page on the website.
 
@@ -275,7 +276,9 @@ I used the Lighthouse tool in Chrome Developer Tools to test certain key factors
 
 ## Code validation
 To validate the code I used the following two tools:
+
 [Nu Html Checker](https://validator.w3.org/nu/)
+
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 Both validators returned no significant errors on any of the pages. 
@@ -284,7 +287,7 @@ Both validators returned no significant errors on any of the pages.
 * After finishing page 2 of the website, I noticed that the line underneath the nav bar was suddenly cut in half. This was caused by a bottom-margin property being added to the main font selector (which includes the nav element). This was solved by making a selector that contains a negative bottom-margin to the ul and il child elements of the nav element and by adding a nav selector that contains a bottom-margin of 0.
 * The thumbnail of the youtube video would dissapear in and out of frame partially when resizing the window. After some playing around in the chrome dev tools, I discovered this was due to the width being set to a percentage setting instead of pixels. I changed it to pixels and now the thumbnail stayed sized the same no matter the window size.
 * There was a problem with the hero image after resizing it to fit tablet sizes. The hero image was now zooming into the div below instead of behind it. This was because I changed the height setting of hero-image id but not of the hero-outer id.
-* There was a problem with the figcaption under the count basie image not aligning. This happened because I moved around CSS rules insize the media query section, and misplaced a bracket because of that. This misplaced bracket made two CSS rules fall outside of the media query and were now applied project-wide. It took a while to find what caused this, but Chrome Developer tools made it quite easy to see that the wrong styles were being applied at bigger screen sizes.
+* There was a problem with the figcaption under the count basie image not aligning. This happened because I moved around CSS rules inside the media query section, and misplaced a bracket because of that. This misplaced bracket made two CSS rules fall outside of the media query and were now applied project-wide. It took a while to find what caused this, but Chrome Developer tools made it easier to see that the wrong styles were being applied at bigger screen sizes.
 
 ## Deployment
 
