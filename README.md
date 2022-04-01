@@ -179,14 +179,14 @@ On the three drummers page, the drum kits that are used by the drummers are brie
 This page would be specifically for drummers and discusses what kind of drumming techniques to use to get a good swinging feel and sound. 
 ### Hamburger Menu
 Since Javascript wasn't used inside this project, a hamburger menu couldn't be made. In a future release (outside of the course), this could be added for better usability on smartphones. 
-### Differenly sized sheets for smartphone sizes
-Although the sheet music is readable on a phone when held in landscape mode, it doesn't read nicely when in portrait mode. This could be mitigated by cutting up the sheets in smaller portions, and aligning these portions underneath each other. However, with the sheets currently used, this could not be done, since the resolution was not high enough and the pictures were slightly warped (new sheet music could be custom-made to mitigate this).  
+### Differently sized sheets for smartphone sizes
+Although the sheet music is readable on a phone when held in landscape mode, it doesn't read nicely when in portrait mode. This could be mitigated by cutting up the sheets in smaller portions, and aligning these portions underneath each other. However, with the sheets that are currently used, this could not be done, since the resolution was not high enough and the pictures were slightly warped (new sheet music could be custom-made to mitigate this).  
 ### Working Contact form
-Although the contact form is build up properly, there was no back-end section in this project. This means the information is not sent anywhere. In a future update this functionality could be added, so the author actually recieves any input by users. 
+Although the contact form is build up properly, there was no back-end section in this project. This means the information is not sent anywhere. In a future update this functionality could be added, so the author actually recieves any input from users. 
 
 # Credits
 
-To be able to build this project in gitpod, I used the template made by Code Institute, as found here: [full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+To be able to built this project in gitpod, I used the template made by Code Institute, as found here: [full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 Other websites I used for inspiration and general coding examples and knowledge:
 * [w3schools](https://www.w3schools.com/)
