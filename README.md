@@ -3,7 +3,7 @@
 ![images of website on different devices](assets/images/responsive-screens-website.jpg)
 
 This project is built as part of the Code Institute Full Stack Software Development course. For this course, 
-Dirk Ornée had to build a first Portfolio Project. He choose to build a project that combines his knowledge as a professional musician, with his knowledge gained troughout the course. 
+Dirk Ornée had to built a first Portfolio Project. He choose to built a project that combines his knowledge as a professional musician, with his knowledge gained troughout the course. 
 
 ## Live Site
 [Fundamentals of Big Band Drumming](https://dodrums.github.io/PortfolioProjectOne/index.html)
