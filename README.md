@@ -67,7 +67,7 @@ The main goal for this project, is to develop a valuable resource for drummers a
 The second goal is to show my competency as a developer using HTML & CSS.
 
 ## Target Audience
-Drummers and Conductors are the main target audience, since the website really aims to help them specifically in understanding the function of a big band drummer better. However, anybody with some knowledge or just a general interest in big band music should be able to enjoy this website and learn something.
+Drummers and Conductors are the main target audience, since the website really aims to help them specifically in understanding the function of a big band drummer better. The information is also presented in a way, that it is assumed you already have knowledge of music and big band music specifically. However, anybody with some knowledge or just a general interest in big band music should be able to enjoy this website and learn something.
 
 ## User Stories
 
@@ -80,7 +80,7 @@ Drummers and Conductors are the main target audience, since the website really a
 
 ### As a new user:
 * I want to navigate the site easily and intuitively, without having to wonder what the purpose of the site is.
-* I want to be redirected through the pages in an intuitive way, having a logical hierarchy to follow in order to learn everything I can from the website 
+* I want to be redirected through the pages in an intuitive way, having a logical hierarchy to follow in order to learn everything I can from the website.
 * I came to this website specifically to learn about big band drumming, especially about topics within big band drumming which are hard to find recources for.
 
 ### As a returning user:
@@ -91,7 +91,7 @@ Drummers and Conductors are the main target audience, since the website really a
 ## Structure of the website
 
 The website is designed to give a good hierarchical flow. This means that after reading the homepage, the user will go to the second page (Reading & Playing) and read through this information. On the bottom of that page they will be prompted to continue to the Three Drummers page, which is the logical place to continue, as it builds on the information read in the Reading & Playing page. The pages however can also be used just by themselves, they both contain enough information to stand on their own. 
-Furthermore, the website is made fully responsive, so it functions on any device. That being said, as you'll be reading sheet music on the Reading & Playing page, a bigger screen is more fitting for that type of content. 
+Furthermore, the website is made fully responsive, so it functions on any device. That being said, as you'll be reading sheet music on the Reading & Playing page, a bigger screen is more fitting for the type of content. 
 
 ## Color Scheme
 The Color Scheme was chosen to represent a somewhat old fashioned look, especially since a lot of the images are black and white, which could look weird on a very modern looking website. To make the website not appear boring, a bright yellow (Safety Yellow) was used.
@@ -118,15 +118,15 @@ Of this color palette the following colors were used:
 Before this project was started, a MoSCoW-method style table was made to see which global features should be added and which features would be omitted or added at a later date. You can see said features in the image above. Let's have a look at the features that actually made it to the website:
 
 ### Home Page:
-The home page is where the user will learn about the project and it's function. Right at the top is a nav bar, making clear which sections the website is divided in. The current active page will be underlined in yellow and user will get a conformation that other links work when hovering over them, by temporarily having hovered link underlined yellow:
+The home page is where the user will learn about the project and it's function. Right at the top is a nav bar, making clear which sections the website is divided in. The current active page will be underlined in yellow and user will get a conformation that other links work when hovering over them, by temporarily having hovered link underlined yellow as well:
 
 ![image of nav bar](assets/images/feature-nav.png)
 
-Right below the nav bar we find the title and cover text, with a captivating hero-image behind it. The cover text is writen short and concise, but with a clear explanation of the website's main goal: 
+Right below the nav bar we find the title and cover text, with a captivating hero-image behind it. The cover text is written short and concise, but with a clear explanation of the website's main goal: 
 
 ![image of hero-image and cover-text](assets/images/feature-hero-image.jpg)
 
-Next is the About Me section, which explains quickly who the author is and why he wrote this website. You'll also see a picture, to put a face to the name:
+Next is the About Me section, which explains quickly who the author is and why he wrote this website. You'll also see a portrait picture, to put a face to the name:
 
 ![image of about me section](assets/images/feature-about-me.jpg)
 
@@ -140,11 +140,11 @@ Finally we have the footer section. This footer section features four socials li
 
 ### Reading & Playing page
 
-The reading and playing page starts of with an introduction explaining that on this page you will learn how to interpret notes as a big band drummer. It also mentions you should know how to read sheet music in order to take full advantage of the information on this page. There is an image of famous drummer Sonny Payne with a hyperlink to Wikipedia in case you want to learn more:
+The reading and playing page starts off with an introduction explaining that on this page you will learn how to interpret notes as a big band drummer. It also mentions you should already know how to read sheet music in order to take full advantage of the information on this page. There is an image of famous drummer Sonny Payne with a hyperlink to Wikipedia in case you want to learn more:
 
 ![image of intro](assets/images/feature-intro.jpg)
 
-Next user will start reading all about big band drumming and get sheet music examples to see what a drum sheet looks like, with explanations about what everything on the sheet means:
+Next, user will start reading all about big band drumming and get sheet music examples to see what a drum sheet looks like, with explanations about what everything on the sheet means:
 
 ![image of sheet music and text](assets/images/feature-text-sheet.jpg)
 
@@ -152,7 +152,7 @@ Sroll further and user will find the first audio example. These audio examples a
 
 ![image of audio track](assets/images/feature-audio.png)
 
-At the end of the page multiple lists are introduced to sum up some simple best practices for playing big band music. These lists give the user a clear overview of what is important to know about big band drumming and is a good place to return to a second time, when refreshing their knowledge about the topic:
+At the end of the page multiple, lists are introduced to sum up some simple best practices for playing big band music. These lists give the user a clear overview of what is important to remember about big band drumming and is a good place to return to a second time, when refreshing their knowledge about the topic:
 
 ![image of lists](assets/images/feature-list.jpg)
 
@@ -167,14 +167,14 @@ The three drummers page is similar in layout and features to the Reading & Playi
 ![large image of buddy rich](assets/images/feature-image-large.jpg)
 
 ### Contact page
-On this last page, you'll find a contact box where the user can input their information and ask the author a question. For the author's convenience a 'Profession/Instrument' box was added, so author can tailor make his response to any questions. 
+On this last page, you'll find a contact box where the user can input their information and ask the author a question. For the author's convenience, a 'Profession/Instrument' box was added, so author can tailor make his response to any questions. 
 ![image of contact section](assets/images/feature-contact.jpg)
 
 ## Future Features
 ### Styles
 In the three drummers page, three different ways of playing big band music are discussed. However, these three different ways all fall inside a quite similar big band style. There are different styles of big band music and playing, that fall outside of my expertise, but could be added in a seperate page to at least familiarise the user with them. 
 ### Sounds
-On the three drummers page, the drum kits that are used by the drummers are briefly discussed. A seperate page dedicated to what kind of sound different drum kit make could be made, covering how to tune your drum kit in different ways as well and what to look for in a good jazz cymbal. 
+On the three drummers page, the drum kits that are used by the drummers are briefly discussed. A seperate page dedicated to the sound of several different drum kits kind could be made, covering how to tune your drum kit in different ways as well as what to look for in a good jazz cymbal. 
 ### Technique
 This page would be specifically for drummers and discusses what kind of drumming techniques to use to get a good swinging feel and sound. 
 ### Hamburger Menu
